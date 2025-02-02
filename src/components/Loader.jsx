@@ -1,6 +1,6 @@
 import { Html, useProgress } from "@react-three/drei";
 
-const CanvasLoader = () => {
+const CanvasLoader = ({ isMobile }) => {
   const { progress } = useProgress();
   return (
     <Html
@@ -11,6 +11,7 @@ const CanvasLoader = () => {
         justifyContent: "center",
         alignItems: "center",
         flexDirection: "column",
+        marginTop: isMobile ? 200 : undefined,
       }}
     >
       <span className="canvas-loader"></span>
