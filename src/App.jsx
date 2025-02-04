@@ -23,7 +23,7 @@ const App = () => {
         <Experience />
         {/* <Tech /> // HighResource Consumption */} 
         <Works />
-        <Feedbacks />
+        {/* <Feedbacks /> */}
         <div className="relative z-0">
           <Contact />
           <StarsCanvas />
