@@ -17,14 +17,6 @@ import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import tesla from "./company/tesla.png";
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
-
 import infosys from "./company/infosys.jpg";
 import clarku from "./company/clarku.png";
 
@@ -37,7 +29,13 @@ import aws from "./tech/aws.png";
 import azure from "./tech/azure.png";
 import kafka from "./tech/kafka.png";
 
-import project_placeholder from "./project_placeholder.png";
+import link from "./link.svg";
+import libflocom from "./projects/libflocom.jpeg";
+import auto_car from "./projects/auto_car.jpeg";
+import tt_crawl from "./projects/tt_crawl.jpeg";
+import currency_detection from "./projects/currency_detection.jpeg";
+import EAPSA from "./projects/EAPSA.jpeg";
+import egxit from "./projects/egxit.jpeg";
 
 export {
   logo,
@@ -57,13 +55,8 @@ export {
   reactjs,
   tailwind,
   typescript,
-  meta,
-  shopify,
   infosys,
   clarku,
-  carrent,
-  jobit,
-  tripguide,
   angular,
   java,
   spring,
@@ -72,5 +65,11 @@ export {
   aws,
   azure,
   kafka,
-  project_placeholder,
+  libflocom,
+  auto_car,
+  tt_crawl,
+  currency_detection,
+  EAPSA,
+  egxit,
+  link,
 };

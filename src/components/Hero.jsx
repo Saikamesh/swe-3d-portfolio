@@ -20,15 +20,15 @@ const Hero = () => {
 
           {/* <br className="sm:block hidden" /> */}
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Software Engineer | Full Stack | AWS and Azure Certfield
+            Software Engineer | Full Stack | AWS and Azure Certified
           </p>
 
-          <div className="flex sm:flex-row mt-7">
+          <div className="flex flex-col sm:flex-row mt-7 space-y-4 sm:space-y-0 sm:space-x-4">
             <a
               href="https://github.com/Saikamesh"
               target="_blank"
               rel="noopener noreferrer"
-              className="mb-4 sm:mb-0 sm:mr-4 green-pink-gradient p-[2px] rounded-[10px] shadow-card"
+              className="w-fit green-pink-gradient p-[2px] rounded-[10px] shadow-card"
             >
               <button className="bg-[#151131] text-white px-4 py-2 rounded-lg transition duration-300 ease-in-out transform hover:scale-95">
                 GitHub
@@ -38,7 +38,7 @@ const Hero = () => {
               href="https://www.linkedin.com/in/saidwibhashyam/"
               target="_blank"
               rel="noopener noreferrer"
-              className="mb-4 sm:mb-0 sm:mr-4 green-pink-gradient p-[2px] rounded-[10px] shadow-card"
+              className="w-fit green-pink-gradient p-[2px] rounded-[10px] shadow-card"
             >
               <button className="bg-[#151131] text-white px-4 py-2 rounded-lg transition duration-300 ease-in-out transform hover:scale-95">
                 LinkedIn
@@ -48,10 +48,10 @@ const Hero = () => {
               href="https://drive.google.com/file/d/1ke0uChuV_Bs2KIXwHVqqZ8QYI0zLJmUS/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
-              className="mb-4 sm:mb-0 sm:mr-4 green-pink-gradient p-[2px] rounded-[10px] shadow-card"
+              className="w-fit green-pink-gradient p-[2px] rounded-[10px] shadow-card"
             >
               <button className="bg-[#151131] text-white px-4 py-2 rounded-lg transition duration-300 ease-in-out transform hover:scale-95">
-                <strong>CV</strong>
+                Resume
               </button>
             </a>
           </div>

@@ -14,9 +14,6 @@ import {
   docker,
   infosys,
   clarku,
-  carrent,
-  jobit,
-  tripguide,
   angular,
   java,
   spring,
@@ -25,7 +22,12 @@ import {
   aws,
   azure,
   kafka,
-  project_placeholder,
+  libflocom,
+  auto_car,
+  tt_crawl,
+  currency_detection,
+  EAPSA,
+  egxit,
 } from "../assets";
 
 export const navLinks = [
@@ -36,6 +38,14 @@ export const navLinks = [
   {
     id: "work",
     title: "Work",
+  },
+  {
+    id: "projects",
+    title: "Projects",
+  },
+  {
+    id: "certificates",
+    title: "Certificates",
   },
   {
     id: "contact",
@@ -237,7 +247,7 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: project_placeholder,
+    image: tt_crawl,
     source_code_link: "https://github.com/Saikamesh/tt_crawl",
   },
   {
@@ -258,7 +268,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: project_placeholder,
+    image: libflocom,
     source_code_link: "https://github.com/Saikamesh/LibFloCom",
   },
   {
@@ -279,7 +289,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: project_placeholder,
+    image: egxit,
     source_code_link: "https://github.com/Saikamesh/EGXIT.IN-Client",
   },
   {
@@ -304,7 +314,7 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: project_placeholder,
+    image: EAPSA,
     source_code_link: "https://github.com/",
   },
 
@@ -330,7 +340,7 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: project_placeholder,
+    image: auto_car,
     source_code_link: "https://github.com/",
   },
   {
@@ -355,65 +365,74 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: project_placeholder,
+    image: currency_detection,
     source_code_link: "https://github.com/",
   },
 ];
 
 const certificates = [
   {
-    name: "AWS Certified Solutions Architect - Associate",
+    name: "AWS Solutions Architect Associate",
     issuer: "Amazon Web Services",
-    issue_date: "May 2021",
-    credential_url: "https://www.credly.com/badges/1234567890",
+    issue_date: "December 2021",
+    credential_url:
+      "https://www.credly.com/badges/9ece01f1-9555-4d29-b7cd-406da8c2a5b6/",
   },
   {
     name: "Microsoft Azure Fundamentals",
     issuer: "Microsoft",
-    issue_date: "May 2021",
-    credential_url: "https://www.credly.com/badges/1234567890",
+    issue_date: "November 2021",
+    credential_url:
+      "https://learn.microsoft.com/en-us/users/saikamesh-1702/credentials/521b68e881f9b706",
   },
   {
     name: "Google IT Automation with Python Professional Certificate",
     issuer: "Google",
-    issue_date: "May 2021",
-    credential_url: "https://www.credly.com/badges/1234567890",
+    issue_date: "June 2021",
+    credential_url:
+      "https://www.credly.com/badges/50954792-aa02-46d0-8f3c-e01a07bf5980/",
   },
   {
     name: "Machine Learning",
     issuer: "Stanford University Online",
-    issue_date: "May 2021",
-    credential_url: "https://www.credly.com/badges/123456",
+    issue_date: "September 2020",
+    credential_url:
+      "https://www.coursera.org/account/accomplishments/certificate/B98M62HUCEBJ",
   },
   {
     name: "Deep Learning Specialization",
     issuer: "deeplearning.ai",
-    issue_date: "May 2021",
-    credential_url: "https://www.credly.com/badges/1234567890",
+    issue_date: "September 2020",
+    credential_url:
+      "https://www.coursera.org/account/accomplishments/specialization/certificate/H89ZX8QXETHH",
   },
   {
     name: "Tensorflow Developer Professional Certificate",
     issuer: "deeplearning.ai",
-    issue_date: "May 2021",
-    credential_url: "https://www.credly.com/badges/123456",
+    issue_date: "October 2020",
+    credential_url:
+      "https://www.coursera.org/account/accomplishments/specialization/certificate/BJ5VBK7ZD6ZB",
   },
   {
     name: "Machine Learning Scientist",
     issuer: "DataCamp",
-    issue_date: "May 2021",
-    credential_url: "https://www.credly.com/badges/1234567890",
+    issue_date: "June 2022",
+    credential_url:
+      "https://www.datacamp.com/statement-of-accomplishment/track/5960dc9312c33e824b7ce82ed8ed1747d8aee54f?raw=1",
   },
   {
     name: "Full Stack Web Development with React",
     issuer: "Hong Kong University of Science and Technology",
-    issue_date: "May 2021",
-    credential_url: "https://www.credly.com/badges/1234567890",
+    issue_date: "August 2020",
+    credential_url:
+      "https://www.coursera.org/account/accomplishments/specialization/certificate/QKTTBH5DQMLZ",
   },
   {
     name: "Web Design for Everybody",
     issuer: "University of Michigan",
-    issue_date: "May 2021",
-    credential_url: "https://www.credly.com/badges/1234567890",
+    issue_date: "June 2020",
+    credential_url:
+      "https://www.coursera.org/account/accomplishments/specialization/certificate/H8GDDSRQ8YJB",
   },
 ];
 

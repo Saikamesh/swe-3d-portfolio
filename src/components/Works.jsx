@@ -78,9 +78,9 @@ const Works = () => {
         >
           Following projects showcases my skills and experience through
           real-world examples of my work. Each project is briefly described with
-          links to code unless it is a private repository. It reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively. Project images will be updated soon.
+          links to code where available. It reflects my ability to solve complex
+          problems, work with different technologies, and manage projects
+          effectively.
         </motion.p>
       </div>
 
@@ -93,4 +93,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "projects");
