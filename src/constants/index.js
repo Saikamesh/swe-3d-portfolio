@@ -394,7 +394,7 @@ const certificates = [
   },
   {
     name: "Machine Learning",
-    issuer: "Stanford University Online",
+    issuer: "Stanford Online",
     issue_date: "September 2020",
     credential_url:
       "https://www.coursera.org/account/accomplishments/certificate/B98M62HUCEBJ",

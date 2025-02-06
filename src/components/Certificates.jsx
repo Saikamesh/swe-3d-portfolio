@@ -14,33 +14,36 @@ const CertificateCard = ({
   credential_url,
 }) => {
   return (
-    <Tilt className="w-[50%]]">
+    <Tilt className="w-full sm:w-auto sm:flex-1">
       <motion.div
         variants={fadeIn("down", "spring", 0.33 * index, 0.33)}
         className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
       >
         <div
           options={{ max: 45, scale: 1, speed: 450 }}
-          className="bg-tertiary rounded-[20px] py-3 px-8 w-auto h-28 flex justify-between items-center"
+          className="bg-tertiary rounded-[20px] py-3 px-8 w-full sm:w-auto h-auto flex justify-between items-center"
         >
-          {/* Place to add image in future if deemed necessary */}
-          {/* <img src={icon} alt={name} className="w-16 h-16 object-contain" /> */}
-          <h3 className="text-white text-[0.80rem] font-medium text-center flex-1">
-            {name}
-          </h3>
-          {/* <div className="m-3 absolute inset-0 flex justify-end card-img_hover"> */}
-            <div
-              onClick={() => window.open(credential_url, "_blank")}
-              className="w-10 h-10 rounded-full flex justify-center items-center cursor-pointer ml-4"
-            >
-              <img
-                src={link}
-                alt="external-link"
-                className="w-1/2 h-1/2 object-contain"
-              />
+          <div className="flex flex-col justify-center flex-grow">
+            <h3 className="text-white text-[0.90rem] font-medium text-center sm:whitespace-nowrap">
+              {name}
+            </h3>
+            <div className="flex justify-center items-center mt-1">
+              <p className="sm:text-[0.70rem] text-[0.70rem] text-secondary text-center sm:whitespace-nowrap">
+                {issuer}
+              </p>
+              <div
+                onClick={() => window.open(credential_url, "_blank")}
+                className="w-10 h-10 rounded-full flex justify-center items-center cursor-pointer ml-2"
+              >
+                <img
+                  src={link}
+                  alt="external-link"
+                  className="w-1/2 h-1/2 object-contain"
+                />
+              </div>
             </div>
           </div>
-        {/* </div> */}
+        </div>
       </motion.div>
     </Tilt>
   );
@@ -74,9 +77,6 @@ const Certificates = () => {
             {...certificate}
           />
         ))}
-        {/* {projects.map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...project} />
-        ))} */}
       </div>
     </>
   );
