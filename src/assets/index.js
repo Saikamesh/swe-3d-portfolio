@@ -19,6 +19,7 @@ import typescript from "./tech/typescript.png";
 
 import infosys from "./company/infosys.jpg";
 import clarku from "./company/clarku.png";
+import GS_jewel from "./company/GS_jewel.png";
 
 import angular from "./tech/angular.png";
 import java from "./tech/java.png";
@@ -57,6 +58,7 @@ export {
   typescript,
   infosys,
   clarku,
+  GS_jewel,
   angular,
   java,
   spring,

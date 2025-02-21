@@ -28,6 +28,7 @@ import {
   currency_detection,
   EAPSA,
   egxit,
+  GS_jewel,
 } from "../assets";
 
 export const navLinks = [
@@ -187,6 +188,20 @@ const experiences = [
       "Implemented AI-driven content analysis to summarize video details and generate concise scripts, creating shorter videos optimized for learning.",
       "Integrated AI-generated visuals and extracted scene images to build cohesive short videos from segmented content, improving educational value.",
       "Utilized AWS serverless architecture, including Lambda and API Gateway, to enable scalable and cost-efficient deployment.",
+    ],
+  },
+  {
+    title: "Software Developer (Contract)",
+    company_name: "GS Jewellers",
+    icon: GS_jewel,
+    iconBg: "#383E56",
+    date: "January 2020 - July 2021",
+    points: [
+      "Engineered a software solution using Java and MySQL to manage inventory, sales, and customer data, streamlining operations and improving customer service.",
+      "Automated the generation of PDF reports for monthly sales and tax filings, including detailed summaries and analytics, helping streamline financial record-keeping.",
+      "Designed and implemented a user-friendly interface for the software using React, enhancing usability and accessibility.",
+      "Integrated payment gateway APIs to enable online transactions and improve customer convenience, increasing sales by 30%.",
+      "Delivered ongoing support and updates to the software, and provided training to staff on its use, ensuring smooth operations and client satisfaction.",
     ],
   },
   {
