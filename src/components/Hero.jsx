@@ -22,7 +22,7 @@ const Hero = () => {
             Software Engineer | Full Stack | AWS and Azure Certified
           </p>
 
-          <div className="flex flex-col sm:flex-row mt-7 space-y-4 sm:space-y-0 sm:space-x-4">
+          <div className="flex flex-col sm:flex-row mt-7 space-y-4 sm:space-y-0 sm:space-x-6">
             <a
               href="https://github.com/Saikamesh"
               target="_blank"
