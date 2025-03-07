@@ -34,7 +34,7 @@ const Hero = () => {
               </button>
             </a>
             <a
-              href="https://www.linkedin.com/in/saidwibhashyam/"
+              href="https://www.linkedin.com/in/snkkd/"
               target="_blank"
               rel="noopener noreferrer"
               className="w-fit green-pink-gradient p-[2px] rounded-[10px] shadow-card"
@@ -44,7 +44,7 @@ const Hero = () => {
               </button>
             </a>
             <a
-              href="https://drive.google.com/file/d/1UIbj14Xq0JkXCUYji8YFXAo6XVb42CDi/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1TgrZWKQZ9iqb5Bne1JH7xDxEpduTmX8_/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="w-fit green-pink-gradient p-[2px] rounded-[10px] shadow-card"
