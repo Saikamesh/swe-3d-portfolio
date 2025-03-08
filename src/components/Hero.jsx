@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
+// import BentoOverview from "./BentoOverview";
 
 const Hero = () => {
   return (
@@ -16,12 +17,9 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I&apos;m <span className="text-[#915eff]">Sai Dwibhashyam</span>
           </h1>
-
-          {/* <br className="sm:block hidden" /> */}
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             Software Engineer | Full Stack | AWS and Azure Certified
           </p>
-
           <div className="flex flex-col sm:flex-row mt-7 space-y-4 sm:space-y-0 sm:space-x-6">
             <a
               href="https://github.com/Saikamesh"
@@ -54,6 +52,9 @@ const Hero = () => {
               </button>
             </a>
           </div>
+        {/* <div className="w-full h-full flex items-center justify-center">
+          <BentoOverview />
+        </div> */}
         </div>
       </div>
 

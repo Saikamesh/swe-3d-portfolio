@@ -25,6 +25,7 @@ import {
   EAPSA,
   egxit,
   GS_jewel,
+  jntuh,
 } from "../assets";
 
 export const navLinks = [
@@ -34,7 +35,7 @@ export const navLinks = [
   },
   {
     id: "work",
-    title: "Work",
+    title: "Career",
   },
   {
     id: "projects",
@@ -122,6 +123,43 @@ const technologies = [
   },
 ];
 
+const education = [
+  {
+    degree: "Master of Science",
+    major: "Computer Science",
+    university: "Clark University",
+    icon: clarku,
+    iconBg: "#383E56",
+    date: "January 2023 - December 2024",
+    course_work: [
+      "1ˢᵗ Semester: Design and Analysis of Algorithms, Survery of Systems and Programming Languages, Server Side Web Programming",
+      "2ⁿᵈ Semester: Software Engineering, Applied Data Analytics, Fundamentals of Data Engineering",
+      "3ʳᵈ Semester: Applied Machine Learning, Advance Data Intelligence, Social Informatics",
+      "4ᵗʰ Semester: Internship, Capstone Project",
+    ],
+    gpa: "3.87/4",
+  },
+  {
+    degree: "Bachelor of Technology",
+    major: "Computer Science",
+    university: "JNTU Hyderabad",
+    icon: jntuh,
+    iconBg: "#E6DEDD",
+    date: "August 2017 - July 2021",
+    course_work: [
+      "1ˢᵗ Semester: Mathematics-I, Engineering Physics-I, Engineering Chemistry, Basic Electrical and Electronics Engineering, Engineering Mechanics",
+      "2ⁿᵈ Semester: Computer Programming in C, Engineering Physics-II, Mathematics-II, Mathematics-III, Engineering Graphics",
+      "3ʳᵈ Semester: Data Structures: C++, Object Oriented Programming: Java, Digital Logic design, Mathematics-IV",
+      "4ᵗʰ Semester: Operating Systems, Database Management Systems, Computer organization, Formal Languages and Automata Theory, Business Economics and Financial Analysis",
+      "5ᵗʰ Semester: Software Engineering, Computer Networks, Design and analysis of Algorithms, Intellectual Property Rights, Fundamentals of Management",
+      "6ᵗʰ Semester: Web Technologies, Compiler Design, Cryptography and Network Security, Information Security Management",
+      "7ᵗʰ Semester: Software Process and Project Management, Data Mining, Python Programming, Blockchain, Mini Project",
+      "8ᵗʰ Semester: Modern Software Engineering, Computer Forensics, Major Project, Entrepreneurship",
+    ],
+    gpa: "3.67/4",
+  },
+];
+
 const experiences = [
   {
     title: "Software Engineer",
@@ -196,6 +234,8 @@ const experiences = [
     ],
   },
 ];
+
+const extracurriculars = [{}, {}];
 
 const testimonials = [
   {
@@ -428,4 +468,11 @@ const certificates = [
   },
 ];
 
-export { technologies, experiences, testimonials, projects, certificates };
+export {
+  technologies,
+  education,
+  experiences,
+  testimonials,
+  projects,
+  certificates,
+};

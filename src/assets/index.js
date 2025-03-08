@@ -25,6 +25,7 @@ import python from "./tech/python.png";
 import aws from "./tech/aws.png";
 import azure from "./tech/azure.png";
 import kafka from "./tech/kafka.png";
+import jntuh from "./jntuh.jpg";
 
 import link from "./link.svg";
 import libflocom from "./projects/libflocom.jpeg";
@@ -66,4 +67,5 @@ export {
   EAPSA,
   egxit,
   link,
+  jntuh,
 };
