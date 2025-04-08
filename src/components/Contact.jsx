@@ -18,8 +18,31 @@ const Contact = () => {
     const { name, value } = e.target;
     setForm({ ...form, [name]: value });
   };
+
+  const validateForm = ()=>{
+    if (!form.name.trim()){
+      alert("Name is required. Please enter your name.");
+      return false;
+    }
+    if (!form.email.trim()){
+      alert("Email is required. Please enter your email.");
+      return false;
+    }
+    if (!form.message.trim()){
+      alert("Message is required. Please enter your message.");
+      return false;
+    }
+    if (!/\S+@\S+\.\S+/.test(form.email)){
+      alert("Email is invalid. Please enter a valid email address.");
+      return false;
+    }
+    return true;
+  }
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    if (!validateForm()) return;
+
     setLoading(true);
     emailjs.send(
       "service_sb4yubs",
@@ -70,6 +93,7 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="What's your name?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+              required
             />
           </label>
           <label className="flex flex-col">
@@ -81,6 +105,7 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="What's your email?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+              required
             />
           </label>
           <label className="flex flex-col">
@@ -92,6 +117,7 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="What do you want to say?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+              required
             />
           </label>
           <button
