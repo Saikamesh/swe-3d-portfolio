@@ -42,7 +42,7 @@ const Hero = () => {
               </button>
             </a>
             <a
-              href="https://drive.google.com/file/d/1TgrZWKQZ9iqb5Bne1JH7xDxEpduTmX8_/view?usp=sharing"
+              href="https://drive.google.com/file/d/1r8PXO4i9BatjTCLIVFOAELnvYnPpIKkk/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
               className="w-fit green-pink-gradient p-[2px] rounded-[10px] shadow-card"
