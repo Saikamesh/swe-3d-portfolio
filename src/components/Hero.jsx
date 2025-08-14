@@ -42,7 +42,7 @@ const Hero = () => {
               </button>
             </a>
             <a
-              href="https://drive.google.com/file/d/1B5BB0HWEU-eBiBBD6RqQA6fJSnJ9rs8_/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1gHlA7a__DMe7-9FVdTR7LVXQZVfsy8dl/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
               className="w-fit green-pink-gradient p-[2px] rounded-[10px] shadow-card"
@@ -52,7 +52,7 @@ const Hero = () => {
               </button>
             </a>
           </div>
-        {/* <div className="w-full h-full flex items-center justify-center">
+          {/* <div className="w-full h-full flex items-center justify-center">
           <BentoOverview />
         </div> */}
         </div>
