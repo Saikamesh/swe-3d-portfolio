@@ -13,6 +13,7 @@ import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 
+import coding from "./company/coding.svg";
 import infosys from "./company/infosys.jpg";
 import clarku from "./company/clarku.png";
 import GS_jewel from "./company/GS_jewel.png";
@@ -52,6 +53,7 @@ export {
   infosys,
   clarku,
   GS_jewel,
+  coding,
   angular,
   java,
   spring,

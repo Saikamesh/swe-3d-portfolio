@@ -26,6 +26,7 @@ import {
   egxit,
   GS_jewel,
   jntuh,
+  coding,
 } from "../assets";
 
 export const navLinks = [
@@ -162,20 +163,17 @@ const education = [
 
 const experiences = [
   {
-    title: "Software Engineer",
-    company_name: "Infosys",
-    icon: infosys,
+    title: "Software Developer",
+    company_name: "Self Employed",
+    icon: coding,
     iconBg: "#383E56",
-    date: "August 2021 - January 2023",
+    date: "March 2025 - Present",
     points: [
-      "Developed and maintained Angular-based enterprise banking applications utilized by over 46 million users.",
-      "Led development of the credit card application review page, handling 10M+ monthly submissions, by architecting an Angular frontend with conditional business logic.",
-      "Modernized banking applications from Angular 6 to Angular 10, reducing bundle size by 25% and improving runtime performance by 30% through lazy-loaded modules and Tree-shaking.",
-      "Implemented WCAG 2.1 AA compliance standards to improve website accessibility for users with disabilities.",
-      "Addressed legacy system limitations; designed a Spring Boot middleware microservice to bridge COBOL-based systems with modern APIs, reducing transaction failures by 40%.",
-      "Implemented OAuth2 authorization in middleware using Spring Security, reducing unauthorized API access by 100% while maintaining <50ms overhead per transaction.",
-      "Debugged and resolved critical code defects, boosting system performance, stability, and reliability.",
-      "Engaged in agile practices using Scrum and Jira to deliver high-quality software in iterative sprints, resolving over 150 critical bugs and improving performance by 30%.",
+      "Providing full-stack development, branding and technical integration services for small businesses, delivering end-to-end digital solutions that improve customer engagement and operational efficiency.",
+      "Engineered a high-performance restaurant website using React.js with ChowNow API integration, reducing manual order processing by 80% and boosting online order volume by 40%.",
+      "Designed complete brand identity (logo/visual assets), strengthening client’s market presence and recognition.",
+      "Implemented responsive UI/UX, cross-browser compatibility, and SEO optimizations, improving load times and search visibility.",
+      "Collaborated directly with business owners to gather requirements and manage timelines, ensuring 100% on-time, in-budget delivery.",
     ],
   },
   {
@@ -192,6 +190,23 @@ const experiences = [
       "Engineered a scene detection pipeline using OpenCV and FFmpeg to analyze and segment videos with 95% boundary accuracy, paired with a 5% interval keyframe analysis, enabling automated content restructuring. ",
       "Achieved 50-70% video length reduction while retaining 90% of original content value through intelligent scene selection supported by React frontend and Django backend.",
       "Deployed using AWS serverless architecture (Lambda, API Gateway), for scalability and cost-efficiency.",
+    ],
+  },
+  {
+    title: "Software Engineer",
+    company_name: "Infosys",
+    icon: infosys,
+    iconBg: "#383E56",
+    date: "August 2021 - January 2023",
+    points: [
+      "Developed and maintained Angular-based enterprise banking applications utilized by over 46 million users.",
+      "Led development of the credit card application review page, handling 10M+ monthly submissions, by architecting an Angular frontend with conditional business logic.",
+      "Modernized banking applications from Angular 6 to Angular 10, reducing bundle size by 25% and improving runtime performance by 30% through lazy-loaded modules and Tree-shaking.",
+      "Implemented WCAG 2.1 AA compliance standards to improve website accessibility for users with disabilities.",
+      "Addressed legacy system limitations; designed a Spring Boot middleware microservice to bridge COBOL-based systems with modern APIs, reducing transaction failures by 40%.",
+      "Implemented OAuth2 authorization in middleware using Spring Security, reducing unauthorized API access by 100% while maintaining <50ms overhead per transaction.",
+      "Debugged and resolved critical code defects, boosting system performance, stability, and reliability.",
+      "Engaged in agile practices using Scrum and Jira to deliver high-quality software in iterative sprints, resolving over 150 critical bugs and improving performance by 30%.",
     ],
   },
   {
